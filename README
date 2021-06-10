@@ -36,11 +36,11 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-Name	Function	     IP Address	    Operating System  
-Jump-Box Gateway	    10.1.0.4	    Linux/Ubuntu 18.4
-Web1	DVWA/Docker	    10.1.0.5	    Linux/Ubuntu 18.4
-LocosWeb2	DVWA/Docker	10.1.0.6	    Linux/Ubuntu 18.4
-ELK-Machine	ELK Cont  10.2.0.4	    Linux/Ubuntu 18.4
+Name	Function	        IP Address	    Operating System  
+Jump-Box Gateway	      10.1.0.4	    Linux/Ubuntu 18.4
+Web1	DVWA/Docker	      10.1.0.5	    Linux/Ubuntu 18.4
+LocosWeb2	DVWA/Docker	  10.1.0.6	    Linux/Ubuntu 18.4
+ELK-Machine	ELK Cont    10.2.0.4	    Linux/Ubuntu 18.4
 Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
