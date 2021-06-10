@@ -4,7 +4,7 @@ The files in this repository were used to configure the network depicted below.
 
 https://github.com/balorden/Elk-Stack-Project1/blob/main/Images/NetworkTopography.png
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml files may be used to install only certain pieces of it, such as Filebeat.
 
 https://github.com/balorden/Elk-Stack-Project1/blob/main/Images/Docker_Container.png
 
@@ -36,7 +36,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-Name	Function	        IP Address	    Operating System  
+Name	Function	        IP Address	  Operating System  
 Jump-Box Gateway	      10.1.0.4	    Linux/Ubuntu 18.4
 Web1	DVWA/Docker	      10.1.0.5	    Linux/Ubuntu 18.4
 LocosWeb2	DVWA/Docker	  10.1.0.6	    Linux/Ubuntu 18.4
@@ -44,14 +44,14 @@ ELK-Machine	ELK Cont    10.2.0.4	    Linux/Ubuntu 18.4
 Access Policies
 The machines on the internal network are not exposed to the public Internet.
 
-Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address: 73.220.175.58
+Only the Jump-Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP address: 76.167.158.26
 
 Machines within the network can only be accessed by Jump-Box, with the IP address of 10.1.0.7
 
 A summary of the access policies in place can be found in the table below.
 
 Name	Publicly Accessible	Allowed Ports	Allowed IP Addresses
-Jump-Box	Yes	 3389,22,80, 5601	         73.220.175.57, 10.0.0.5, 10.0.0.6, 10.0.0.7, 10.2.0.4
+Jump-Box	Yes	 3389,22,80, 5601	         76.167.158.26, 10.0.0.5, 10.0.0.6, 10.0.0.7, 10.2.0.4
 Web1	    No	22	10.1.0.4 80
 LocosWeb2	No	22	10.1.0.5 80
 ELK-Machine	Yes	5601,22	10.2.0.4, 73.220.175.57
