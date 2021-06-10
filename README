@@ -85,4 +85,4 @@ SSH into the control node and follow the steps below:
 Copy the .yml file to /etc/ansible/roles.
 Update the config.yml file to include the group of target machines.
 Run the playbook, and navigate to http://40.84.184.92:5601/app/kibana#/home to check that the installation worked as expected.
-For Elk installation, use this command in '/etc/ansible' filepath: install-elk.yml `curl https://github.com/WilldTay91/Automated-ELK-Stack-Deployment/blob/master/VM_Config_Files/Install-ELK.yml’
+For Elk installation, use this command in '/etc/ansible' filepath: install-elk.yml `curl https://github.com/JumpBoxBryan/Automated-ELK-Stack-Deployment/blob/master/VM_Config_Files/Install-ELK.yml’
